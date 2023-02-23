@@ -255,7 +255,7 @@ section {
 }
 
 .header.sticked {
-  background: rgba(27, 47, 69, 0.9);
+  background: rgba(241, 76, 34, 0.9);
   padding: 12px 0;
 }
 
@@ -560,7 +560,8 @@ section {
   padding-left: 20px;
   font-size: 15px;
   font-family: var(--font-default);
-  border-left: 2px solid var(--color-primary);
+  /* border-left: 2px solid var(--color-primary); */
+  border-left: 2px solid #fff;
   margin: 40px 0;
 }
 
@@ -2106,7 +2107,7 @@ section {
   font-size: 15px;
   margin-bottom: 0;
   font-family: var(--font-primary);
-  color: var(--color-secondary);
+  color: var(--color-default);
 }
 
 .footer .footer-content .social-links a {
@@ -2195,5 +2196,5 @@ section {
   padding-top: 4px;
   text-align: center;
   font-size: 13px;
-  color: var(--color-secondary);
+  color: var(--color-default);
 }
