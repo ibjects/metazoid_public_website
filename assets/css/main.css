@@ -19,7 +19,7 @@
 /* Colors */
 :root {
   --color-default: #2b180d;
-  --color-primary: #56b8e6;
+  --color-primary: #F14C22;
   --color-secondary: #F14C22;
 }
 
@@ -43,8 +43,16 @@ a {
 }
 
 a:hover {
-  color: #82cbed;
+  color: #F14C22;
   text-decoration: none;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1;
 }
 
 h1,
